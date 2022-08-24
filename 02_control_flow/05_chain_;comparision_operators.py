@@ -14,7 +14,7 @@ age = 22
 
 
 weight = int(input("Enter Weight: "))
-command = input("(L)bs and (K)g: ")
+command = input("(L)bs and (K)g: ").lower()
 
 if command == "l":
     kilos = 0.45 * weight
