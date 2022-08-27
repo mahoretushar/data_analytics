@@ -1,0 +1,2 @@
+1. While Loop's
+2. Functions

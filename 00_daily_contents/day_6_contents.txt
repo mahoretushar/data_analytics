@@ -1,0 +1,8 @@
+1. Type Conversion - input in Python
+2. Control Flow
+	- Conditions (if,else)
+	- loops
+	- ternary operator
+	- iterables
+3. Interview Questions & Coding Questions (Database)
+4. Project's Discussion

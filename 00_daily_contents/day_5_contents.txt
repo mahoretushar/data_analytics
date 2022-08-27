@@ -1,0 +1,7 @@
+---We have seen How to Install Linux (Ubuntu)---
+
+1. Code on Linux
+2. Package Managers on Linux
+3. String Methods
+4. Working with Numbers
+5. Top Q&A

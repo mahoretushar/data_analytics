@@ -1,0 +1,4 @@
+1. Lists
+2. Unpacking
+3. lambda functions
+4. tuple

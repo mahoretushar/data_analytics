@@ -1,0 +1,5 @@
+1. Control Flow
+	a. if
+	b. loops - (for, while)
+2. Ternary Operators
+3. Iterators

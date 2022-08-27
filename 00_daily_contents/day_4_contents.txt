@@ -1,0 +1,5 @@
+1. Python Strings
+2. Escape Sequences
+3. Formatted Strings
+4. Code on Linux (about linux and basic commands)
+5. Top Q&A
