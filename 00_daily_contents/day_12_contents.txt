@@ -1,0 +1,7 @@
+1. Unpacking
+2. Lambda Function
+3. Map Function
+4. Filter Function
+5. List Comprehension
+6. Zip Function
+7. Q&A
