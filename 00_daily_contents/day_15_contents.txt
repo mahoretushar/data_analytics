@@ -1,0 +1,47 @@
+1. IDE
+
+	- code editors
+	- IDE's
+
+2. Project - Solution
+3. OOP
+
+
+Data Analytics
+- Python
+	impl
+	oop
+	datbases - sqlite
+- SQL - mySQL server - workbeanch
+- EXCEL
+- PowerBI.....
+
+
+
+prj_1 = venv(2010 - python 2.3) - live
+prj_2 = 2015 - python 2.7 - live
+prj_3 = 2020 - python 3.8 - live
+
+prj_1 = s1-v1, s2-v3, s3-v3
+prj_2 = s1-v2, s2-v5, s3-v10
+
+
+virtual env
+win - python3.10
+prj_1 - venv(python 3.10, s1-v1, s2-v3, s3-v3)
+prj_2 - venv(s1-v2, s2-v5, s3-v10)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
