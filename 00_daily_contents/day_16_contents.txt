@@ -1,0 +1,10 @@
+1. Object Oriented Programming
+2. Magic Methods
+
+
+OOP - Chara - 
+	s - inheritance, 
+	s - polymorphism, 
+	s/p - encap,
+	s - abstr, 
+	s - msg Pass
