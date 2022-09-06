@@ -1,0 +1,4 @@
+1. magic methods
+2. inheritance
+3. @property
+4. @classmethod
