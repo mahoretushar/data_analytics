@@ -1,0 +1,4 @@
+name,age,university,degree
+bruce,40,oxford,computer science
+clark,250,oxford,quantum physics
+diana,100,oxford,computers

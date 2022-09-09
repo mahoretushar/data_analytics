@@ -1,0 +1,13 @@
+1. CSV files
+2. JSON files
+3. Using "with" context manager
+4. importing own files
+
+Interesting Fact:
+file extensions
+.jpg .txt .mp3 .mp4 .py .c .cpp .......
+
+
+test.py --- test.xyz
+
+test.csv --- test.txt
