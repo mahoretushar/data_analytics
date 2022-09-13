@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccdce9a2-fea9-495c-9da8-49f62864a1e7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/00_daily_contents/day_23_contents.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project_2_movie/books.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project_2_movie/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_2_movie/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_2_movie/books.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/project_2_movie/utils/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_2_movie/utils/database.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,17 +35,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "full.screen.before.presentation.mode": "false",
-    "last_opened_file_path": "C:/Users/LENOVO/Desktop/data_analytics/07_files/json_files",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/LENOVO/Desktop/data_analytics/07_files/json_files&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\LENOVO\Desktop\data_analytics\07_files\json_files" />
@@ -51,7 +54,7 @@
       <recent name="C:\Users\LENOVO\Desktop\data_analytics\07_files\importing_files\utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.app">
+  <component name="RunManager" selected="Python.json_import">
     <configuration name="02_file_copying" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="data_analytics" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,9 +162,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.json_import" />
         <item itemvalue="Python.app" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.json_import" />
         <item itemvalue="Python.csv_read" />
         <item itemvalue="Python.02_file_copying" />
       </list>

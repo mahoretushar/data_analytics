@@ -1,3 +1,0 @@
-c-codes,bruce,1
-perl,clark,0
-python,diana,0
