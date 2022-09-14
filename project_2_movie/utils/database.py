@@ -1,32 +1,20 @@
-import json
+import sqlite3
+
 """
-Concerned with storing and retrieving books form a csv file.
-Format of the csv file:
-
-name,author,read\n
-c-lang,bruce,0\n
-perl,clark,1\n
-
-[
-    {
-        'name': 'c-code',
-        'author': 'bruce',
-        'read': True
-    },
-    {
-        'name': 'perl',
-        'author': 'clark',
-        'read': False
-    }
-]
+Concerned with storing and retrieving books form a database.
 """
 
 books_file = "books.json"
 
 
 def create_book_table():
-    with open(books_file, 'w') as file:
-        json.dump([], file)
+    connection = sqlite3.connect('data.db')
+    cursor = connection.cursor()
+
+    cursor.execute('CREATE TABLE books(name text, author text, read integer)')
+
+    connection.commit()
+    connection.close()
 
 
 def add_book(name, author):
