@@ -4,47 +4,59 @@ import sqlite3
 Concerned with storing and retrieving books form a database.
 """
 
-books_file = "books.json"
-
 
 def create_book_table():
     connection = sqlite3.connect('data.db')
     cursor = connection.cursor()
 
-    cursor.execute('CREATE TABLE books(name text, author text, read integer)')
+    cursor.execute('CREATE TABLE IF NOT EXISTS books(name text, author text, read integer)')
 
     connection.commit()
     connection.close()
 
 
 def add_book(name, author):
-    books = get_all_books()     # [{}, {}, {}]
-    books.append({'name': name, 'author': author, 'read': False})   # [{}, {}, {}, {}]
-    _save_all_books(books)
+    connection = sqlite3.connect('data.db')
+    cursor = connection.cursor()
+
+    cursor.execute('INSERT INTO books VALUES(?,?,0)', (name, author))
+
+    connection.commit()
+    connection.close()
 
 
 def get_all_books():
-    with open(books_file, 'r') as file:
-        return json.load(file)
+    connection = sqlite3.connect('data.db')
+    cursor = connection.cursor()
 
+    cursor.execute('SELECT * FROM books')
+    books = [{'name': row[0], 'author': row[1], 'read': row[2]} for row in cursor.fetchall()]
+    # [(name, author, read), (name, author, read), (name, author, read)]
 
-def _save_all_books(books):
-    with open(books_file, 'w') as file:
-        json.dump(books, file)
+    connection.commit()
+    connection.close()
+
+    return books
 
 
 def mark_book_as_read(name):
-    books = get_all_books()
-    for book in books:
-        if book['name'] == name:
-            book['read'] = True
-    _save_all_books(books)
+    connection = sqlite3.connect('data.db')
+    cursor = connection.cursor()
+
+    cursor.execute('UPDATE books SET read=1 WHERE name=?', (name,))
+
+    connection.commit()
+    connection.close()
 
 
 def delete_book(name):
-    books = get_all_books()
-    books = [book for book in books if book['name'] != name]
-    _save_all_books(books)
+    connection = sqlite3.connect('data.db')
+    cursor = connection.cursor()
+
+    cursor.execute('DELETE FROM books WHERE name=?', (name,))
+
+    connection.commit()
+    connection.close()
 
 
 # def delete_book(name):

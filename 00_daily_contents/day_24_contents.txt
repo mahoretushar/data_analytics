@@ -1,0 +1,2 @@
+1. database basics
+2. inserting data project 2
